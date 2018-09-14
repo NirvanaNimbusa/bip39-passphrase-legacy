@@ -2,3 +2,5 @@
 *.iml
 .DS_Store
 *.patch
+node_modules
+bip39-personal-standalone.html
