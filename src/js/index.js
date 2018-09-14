@@ -521,7 +521,14 @@
     }
 
     var networks = [
-
+	
+        {
+            name: "Artax",
+            onSelect: function() {
+                network = bitcoin.networks.artax;
+                DOM.bip44coin.val(219);
+            },
+        },
         {
             name: "Auroracoin",
             onSelect: function() {

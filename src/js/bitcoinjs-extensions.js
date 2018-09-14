@@ -1490,3 +1490,14 @@ bitcoin.networks.kobocoin = {
   scriptHash: 0x55,
   wif: 0xbc
 }
+
+ bitcoin.networks.artax = {
+  messagePrefix: '\x18Artax Signed Message:\n',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4,
+  },
+  pubKeyHash: 0x17,
+  scriptHash: 0x1CBD,
+  wif: 0x97,
+};
